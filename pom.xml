@@ -14,18 +14,13 @@
     <version>2.3.2.RELEASE</version>
   </parent>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
-  </dependencies>
 
+<!--
   <modules>
     <module>springBoot-first</module>
       <module>springBoot-first</module>
   </modules>
-
+-->
   <name>A Camel Route</name>
 
   <properties>
@@ -50,13 +45,18 @@
   <dependencies>
 
     <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+  <!--
+    <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-core</artifactId>
     </dependency>
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-main</artifactId>
-    </dependency>
+    </dependency>-->
 
     <!-- logging -->
     <dependency>
